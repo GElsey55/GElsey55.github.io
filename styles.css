@@ -1,5 +1,5 @@
 body {
-    background:lightblue;
+    background:#594114;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -7,15 +7,22 @@ body {
     display:flex;
     padding:10px;
     margin:10px;
-    background:lightgoldenrodyellow;
+    background:#F2DCC9;
 }
 
 .assignment img {
     width:200px;
     padding:10px;
+    border: 2px solid #731B07;
+    margin-right: 20px;
 }
 
 h1 {
-    color:green;
+    color:#D91604;
     text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color:#D91604;
 }
