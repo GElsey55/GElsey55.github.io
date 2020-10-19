@@ -4,10 +4,13 @@ body {
 }
 
 .assignment {
-    display:flex;
-    padding:10px;
-    margin:10px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
     background: #f2dcc9;
+    border-radius: 5px;
+    box-shadow: 5px 10px #D91604;
 }
 
 .assignment img {
@@ -15,6 +18,7 @@ body {
     padding:10px;
     border: 2px solid #731b07;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -24,5 +28,9 @@ h1 {
 
 a {
     text-decoration:none;
+    color:#731b07;
+}
+
+.assignment a:hover {
     color:#D91604;
 }
